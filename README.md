@@ -1,5 +1,5 @@
 # jwtTokenPKCS1
-JWT Token Creation PKCS1
+JWT Token Creation for PKCS1 private key.
 
 How to run : insert the full path for your configuration.properties file .
 
