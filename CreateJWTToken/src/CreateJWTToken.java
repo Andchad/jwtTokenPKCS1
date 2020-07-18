@@ -20,13 +20,14 @@ import sun.security.util.DerValue;
 
 public class CreateJWTToken {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) throws Exception {
 		
 		System.out.println("Please insert configuration file full path: ");
 		
 		Scanner in = new Scanner(System.in);
         String configurationFilePath = in.nextLine();
-        
+        in.close();
    
         Properties properties = readPropertiesFile(configurationFilePath);
         
